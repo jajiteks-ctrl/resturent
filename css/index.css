@@ -121,23 +121,56 @@ a {
 .food-card {
     padding: 15px;
     border-radius: 15px;
-    background-color:white;
+    background-color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    color:black;
+    color: black;
     width: 280px;
     border-right: 1px solid orange;
     border-left: 1px solid orange;
-} 
+}
 
 
 .order-now {
     padding: 12px;
     width: 100%;
     margin: 10px;
-    background-color:orange;
+    background-color: orange;
     border: 2px solid white;
     border-radius: 5px;
     color: white;
 }
 
 /* ============= latest Dishes ============== */
+
+.desert-section {
+    background-image: url("../images/sweet-heropage.webp")
+}
+
+.sweet-image {
+    width: 200px;
+    border-radius: 50%;
+    padding:18px;
+}
+
+.sweet-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sweet-sub {
+    width: 280px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: black;
+   text-align: center;
+    border-right: 1px solid orange;
+    border-left: 1px solid orange;
+
+}
