@@ -1,0 +1,67 @@
+*{
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+     margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color:white;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width:100%;
+}
+.nav-bar {
+    display: flex;
+    gap:20px;
+    padding:15px;
+}
+a{
+    text-decoration: none;
+    font-size:20px;
+    color:black
+}
+
+.logo {
+    width:auto;
+    object-fit: contain;
+    height:115px;
+    display: block;
+}
+
+/* ============= hero page starts ============== */
+
+.hero-container{
+    background-image: url("../images/hero\ page.jpg");
+    height:80vh;
+    /* background-position: center; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   color:white;
+   padding:20px;
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+
+
+}
+
+.hero-page {
+    line-height:1.2;
+    font-weight: bold;
+    
+    font-size:3.5em;
+}
+
+.order-now {
+    padding:10px;
+    width:20%;
+}
+/* ============= hero page starts ============== */
+
