@@ -1,0 +1,142 @@
+* {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family:
+        "Noto Color Emoji",
+        "Segoe UI Emoji",
+        "Apple Color Emoji",
+        sans-serif;
+    background-color: #363231;
+}
+
+.header {
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+@media (max-width:996px) {
+    .nav-bar {
+        display: none;
+
+    }
+
+
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+}
+
+.logo {
+    width: auto;
+    object-fit: contain;
+    height: 115px;
+    display: block;
+}
+
+
+
+
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 20px 10px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    margin-bottom: 15px;
+    color:orange;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9800;
+}
+
+/* Social Icons */
+.socials a {
+    display: inline-block;
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: orange;
+    border-radius: 50%;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.socials a:hover {
+    background: #ff9800;
+    color: #111;
+    transform: scale(1.1);
+}
+
+.logo {
+    color: #ff9800;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.logo-1 {
+    margin-top:-18%;
+    width:250px;
+}
