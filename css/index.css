@@ -132,7 +132,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top:35px;
+    margin-top: 35px;
 
 }
 
@@ -175,8 +175,8 @@ h4 {
     color: orange;
 }
 
-h1{
-    color:white;
+h1 {
+    color: white;
 }
 
 h3 {
@@ -198,20 +198,206 @@ h3 {
 
 
 .about-container {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items:center;
-    gap:20px;
+    align-items: center;
+    gap: 20px;
 }
 
-.about-card{
-    width:420px;
+.about-card {
+    width: 420px;
     text-align: justify;
 }
+
 .team {
-    margin-top:45px;
+    margin-top: 45px;
 }
+
 .chef {
-    width:220px;
+    width: 220px;
+}
+
+.breakfat-img {
+    width: 100px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 15px;
+
+
+}
+
+.break-container {
+    display: flex;
+    gap: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding:15px;
+      /* border-left:3px solid orange; */
+      border-bottom:2px solid orange;
+      border-radius:20px;
+
+
+}
+
+.b-sub-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-breakfast-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+  
+    margin :20px;
+
+}
+
+
+@media (max-width:996px){
+    .break-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.form-container {
+
+    border-radius: 25px;
+    background-color: #474646;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin: 20px;
+    width: 550px;
+    border-top:3px solid orange;
+
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+input {
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(179, 178, 175);
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 13px;
+}
+
+.reach-out {
+    padding: 10px;
+    color: orange;
+    background-color: #664930;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.send-msg {
+    padding-top: 20px;
+    color: white;
+}
+
+.sen-para {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.alignment-form-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: white;
+
+
+}
+
+.submit {
+    width: 100%;
+    background-color: orangered;
+    padding: 20px;
+    margin-top: 15px;
+    color: white;
+    border: none;
+}
+
+.email-container {
+    display: flex;
+    gap: 15px;
+    padding:20px;
+}
+
+.email-icon {
+    color: orange;
+    font-size: 22px;
+}
+
+.contact-container {
+
+    border-radius: 15px;
+    /* background-color: #474646; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 25px;
+    margin: 20px;
+    width: 550px;
+
+}
+.contact-head {
+    padding:15px;
+}
+
+
+
+.conat-gal-img {
+    width:150px;
+}
+
+.gallery-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap:25px;
+}
+
+.menu-btns {
+    background: transparent;
+    padding:10px;
+    border:1px solid orange;
+    border-radius:10px;
+    color :orange;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.breakfast-head {
+    text-align:center;
+    padding:25px;
 }
